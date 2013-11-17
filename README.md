@@ -10,8 +10,8 @@
 The Erlang plugin for Vim.
 
 
- Features
-----------
+Features
+--------
 
 * Syntax highlighting
 * Code indenting
@@ -24,8 +24,8 @@ The Erlang plugin for Vim.
 * Pathogen compatible (http://github.com/tpope/vim-pathogen)
 
 
- How to install it
--------------------
+How to install it
+-----------------
 
 Copy the content of the tarball to your `.vim`. Don't forget to run
 `:helptags` if you are not using Pathogen.
@@ -37,14 +37,14 @@ With a Vim version older than 7.3 syntax checking will be disabled as
 some required features won't be available.
 
 
- How to use it
----------------
+How to use it
+-------------
 
 Start with `:help vimerl`.
 
 
- How to contribute or report bugs
-----------------------------------
+How to contribute or report bugs
+--------------------------------
 
 Send it to me:
     Markus Mr. <github-contact@mr-pi.de>
