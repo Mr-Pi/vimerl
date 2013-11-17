@@ -15,6 +15,7 @@ The Erlang plugin for Vim.
 - Code indenting
 - Code folding
 - Code omni completion
+- Comment block folding
 - Syntax checking with quickfix support
 - Code skeletons for the OTP behaviours
 - Uses configuration from Rebar
@@ -44,7 +45,7 @@ Start with `:help vimerl'.
 ----------------------------------
 
 Send it to me:
-    Ricardo Catalinas Jiménez <jimenezrick@gmail.com>
+    Markus Mr. <github-contact@mr-pi.de>
 
 Or use GitHub:
-    http://github.com/jimenezrick/vimerl
+    http://github.com/Mr-Pi/vimerl
