@@ -40,6 +40,13 @@ let s:erlang_fun_end   = '^[^%]*\.\s*\(%.*\)\?$'
 let s:erlang_commentBlock = '^%%[^%]*$'
 
 function s:SetErlangOptions()
+	if executable('erl') != 1
+		echohl ErrorMsg
+		echomsg 'vimerl: erl command not installed'
+		echohl None
+		return
+	endif
+
 	compiler erlang
 	if version >= 700
 		setlocal omnifunc=erlang_complete#Complete
